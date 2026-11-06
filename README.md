@@ -46,9 +46,6 @@ Files:
 - `notebooks/7_machine_learning_prediction.ipynb`: Training, tuning and comparing the four models
 - `dashboard/spacex_dash_app.py`: The Plotly Dash dashboard. Run `python dashboard/spacex_dash_app.py` and open http://127.0.0.1:8050
 - `dashboard/screenshots/`: Screenshots of the dashboard
-- `report/SpaceX Falcon 9 Landing Prediction - Todd Sakai.pdf`: A 5-page summary report without code (`report/report.md` is its source)
 - `maps/`: The three Folium maps as HTML files. GitHub cannot show interactive maps, so download a file and open it in a browser
 - `data/`: The CSV files that the notebooks write
 - `run_all.sh`: Runs every notebook in order
-
-Each step loads IBM's reference copy of the previous step's output, so the results match the course. The public SpaceX API was offline in November 2026, so notebook 1 falls back to IBM's copy of its own output when the API does not answer.
